@@ -215,7 +215,7 @@ nav ul li a:hover::after {
     left: -100%;
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: #000000;
+    background-color: #000000 !important;
     transition: all 0.3s ease;
     z-index: 1000;
     padding: 1rem;
@@ -224,7 +224,7 @@ nav ul li a:hover::after {
 
   nav.active {
     left: 0;
-    background-color: #000000;
+    background-color: #000000 !important;
   }
 
   nav ul {
@@ -281,11 +281,11 @@ nav ul li a:hover::after {
   nav {
     top: 50px;
     height: calc(100vh - 50px);
-    background-color: #000000;
+    background-color: #000000 !important;
   }
 
   nav.active {
-    background-color: #000000;
+    background-color: #000000 !important;
   }
 
   nav ul li a {
