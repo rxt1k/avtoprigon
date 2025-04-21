@@ -224,6 +224,7 @@ nav ul li a:hover::after {
 
   nav.active {
     left: 0;
+    background-color: #000000;
   }
 
   nav ul {
@@ -283,27 +284,13 @@ nav ul li a:hover::after {
     background-color: #000000;
   }
 
+  nav.active {
+    background-color: #000000;
+  }
+
   nav ul li a {
     font-size: 1rem;
     padding: 0.7rem;
-  }
-
-  .search-container {
-    padding: 0.5rem;
-  }
-
-  .search-box {
-    padding: 0.3rem;
-  }
-
-  #search-input {
-    padding: 0.4rem;
-    font-size: 0.85rem;
-  }
-
-  #search-button {
-    padding: 0.4rem;
-    font-size: 0.85rem;
   }
 }
 
